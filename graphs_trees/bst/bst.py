@@ -16,6 +16,7 @@ class Bst(object):
         self.root = root
 
     def insert(self, data):
+        # print(f"inserting value {data}")
         if data is None:
             raise TypeError('data cannot be None')
         if self.root is None:
